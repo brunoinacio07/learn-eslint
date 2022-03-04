@@ -1,6 +1,7 @@
-const server = require('express')();
+const server = require('express')()
 
-server.get("/", (req, res) => {})
+server.get('/', (req, res) => {
+	console.log(res.send('ESLint'))
+})
 
-server.listen(3000);
-
+server.listen(3000)
